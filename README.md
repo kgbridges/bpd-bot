@@ -25,7 +25,7 @@ COnvert the API call to Python; I’ll take the small things where I can. Instal
 
 *Accidentally try to go to 4.5 and remember you need to install Python- whoops!*
 
-You can use Anaconda or whatever you like; I ended up just downloading through python.org
+You can use Anaconda or whatever you like; I ended up just [downloading it](https://python.org). 
 
 ### Step 4: 
 
