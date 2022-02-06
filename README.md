@@ -31,18 +31,14 @@ You can use Anaconda or whatever you like; I ended up just downloading through p
 
 I downloaded PyCharm Community Edition (which is free), and after lots (and lots) of googling, parsed and looped through JSON objects, and wrote them out as a pandas dataframe. The code for that is [here](https://github.com/kgbridges/bpd-bot/blob/main/create_dataframe)
 
-*Note to self:*
-
-Parsing JSON is hard. Kevin reminded me that their interviews for Senior Software Engineers involves parsing JSON, and most people still struggle with it. Be kind to yourself.  
+*Note to self: Parsing JSON is hard. Kevin reminded me that their interviews for Senior Software Engineers involves parsing JSON, and most people still struggle with it. Be kind to yourself.*
 
 ### Step 5: 
 
 Set-up a PostGres database and tables. You can do this in several ways (through command line, installation, etc.) I ended up trying the command line (psql) and getting frustrated, so after I [downloaded](https://www.postgresql.org/download/) it, I set-up an instance locally and I worked in pgAdmin, where I found it easier to set-up the database and an admin account. I also created the two tables I wanted and added the columns and column types. I did verify I could access the database from the command line though. 
 To do that, I installed psql, then used: psql <database_name> postgres (and then the password). I was able to log-in and then see <my_database_name>#.  
 
-*Note:*
-
-there are lots of things that need to be installed first (including [homebrew](https://brew.sh/), [pip](https://pip.pypa.io/en/stable/installation/), and [psycopg2](https://pypi.org/project/psycopg2/)). I had a lot of issues with old installer versions and importing due to things being in different directories. Make sure you clean everything up (aka upgrade it) if you already have Python installed, and don’t be sloppy about where things are saved. 
+*Note: Lots of things need to be installed first (including [homebrew](https://brew.sh/), [pip](https://pip.pypa.io/en/stable/installation/), and [psycopg2](https://pypi.org/project/psycopg2/)). I also had issues with old installer versions and importing due to things being in different directories. Make sure you clean everything up (aka upgrade it) if you already have Python installed, and don’t be sloppy about where things are saved.*
 
 *Project for later:*
 The PostGres database could also be set-up in Docker, which I may explore later, but for now, am sticking with running it locally to learn. 
