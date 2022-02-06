@@ -29,7 +29,7 @@ You can use Anaconda or whatever you like; I ended up just [downloading it](http
 
 ### Step 4: Parse JSON to dataframe
 
-I downloaded PyCharm Community Edition (which is free), and after lots (and lots) of googling, parsed and looped through JSON objects, and wrote them out as a pandas dataframe. The code for that is [here](https://github.com/kgbridges/bpd-bot/blob/main/create_dataframe)
+I downloaded PyCharm Community Edition (which is free), and after lots (and lots) of googling, parsed and looped through JSON objects, and wrote them out as a pandas dataframe. The code for that is [here.](https://github.com/kgbridges/bpd-bot/blob/main/create_dataframe)
 
 *Note to self: Parsing JSON is hard. Kevin reminded me that their interviews for Senior Software Engineers involves parsing JSON, and most people still struggle with it. Be kind to yourself.*
 
@@ -45,9 +45,7 @@ The PostGres database could also be set-up in Docker, which I may explore later,
 
 —Ok, now all the easy stuff is over :)
 
-### Step 6: 
-
-Write out dataframe to Postgres tables using Python
+### Step 6: Write out dataframe to Postgres (via Python).
 
 In trying to do this, I first learned that the PyCharm Community edition no longer allows database connection set-ups, so unless you want to pay, you’ll have to find another way. 
 
