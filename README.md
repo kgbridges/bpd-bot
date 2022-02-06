@@ -45,8 +45,5 @@ The PostGres database could also be set-up in Docker, which I may explore later,
 
 —Ok, now all the easy stuff is over :)
 
-### Step 6: Write out dataframe to Postgres (via Python).
+### Step 6: Set-up API to write dataframe to Postgres
 
-In trying to do this, I first learned that the PyCharm Community edition no longer allows database connection set-ups, so unless you want to pay, you’ll have to find another way. 
-
-There are also seemingly a million methods, and I couldn’t get any of them to work well. 
